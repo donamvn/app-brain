@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chính Sách Bảo Mật - Tư Duy Số</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .app-name {
+            text-align: center;
+            color: #764ba2;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        
+        .last-updated {
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        h3 {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .highlight {
+            background-color: #f0f4ff;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .contact {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .contact h2 {
+            color: white;
+            border: none;
+            margin-top: 0;
+        }
+        
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 2px solid #fff;
+        }
+        
+        .language-switch {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .language-switch button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s;
+        }
+        
+        .language-switch button:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+        
+        .language-switch button.active {
+            background: #764ba2;
+            font-weight: bold;
+        }
+        
+        .lang-vi, .lang-en {
+            display: none;
+        }
+        
+        .lang-vi.active, .lang-en.active {
+            display: block;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 Chính Sách Bảo Mật</h1>
+        <div class="app-name">Tư Duy Số - Rèn Luyện Trí Nhớ</div>
+        <div class="last-updated">Cập nhật lần cuối: 29 tháng 10, 2025</div>
+        
+        <div class="language-switch">
+            <button onclick="switchLanguage('vi')" id="btn-vi" class="active">Tiếng Việt</button>
+            <button onclick="switchLanguage('en')" id="btn-en">English</button>
+        </div>
+
+        <!-- Vietnamese Version -->
+        <div class="lang-vi active">
+            <div class="highlight">
+                <p><strong>TƯ DUY SỐ</strong> cam kết bảo vệ quyền riêng tư của bạn. Chính sách này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi sử dụng ứng dụng.</p>
+            </div>
+
+            <h2>📱 Giới Thiệu</h2>
+            <p>Tư Duy Số là một ứng dụng trò chơi rèn luyện trí não hoàn toàn miễn phí, được phát triển để giúp người dùng cải thiện trí nhớ và khả năng tính toán. Chúng tôi tôn trọng quyền riêng tư của bạn và cam kết bảo vệ thông tin cá nhân của bạn.</p>
+
+            <h2>🔍 Thông Tin Chúng Tôi Thu Thập</h2>
+            
+            <h3>Thông Tin Không Thu Thập</h3>
+            <p>Tư Duy Số <strong>KHÔNG</strong> thu thập bất kỳ thông tin cá nhân nào của bạn, bao gồm:</p>
+            <ul>
+                <li>Tên, địa chỉ email, số điện thoại</li>
+                <li>Thông tin tài khoản hoặc mật khẩu</li>
+                <li>Vị trí địa lý</li>
+                <li>Danh bạ điện thoại</li>
+                <li>Ảnh hoặc video</li>
+                <li>Dữ liệu nhận dạng cá nhân khác</li>
+            </ul>
+
+            <h3>Dữ Liệu Cục Bộ</h3>
+            <p>Ứng dụng chỉ lưu trữ dữ liệu sau đây <strong>trên thiết bị của bạn</strong> (không gửi lên máy chủ):</p>
+            <ul>
+                <li><strong>Điểm số cao nhất:</strong> Để theo dõi tiến độ của bạn</li>
+                <li><strong>Cài đặt trò chơi:</strong> Mức độ khó, tùy chọn âm thanh</li>
+                <li><strong>Thống kê trò chơi:</strong> Số lần chơi, thời gian chơi</li>
+            </ul>
+            <p>Tất cả dữ liệu này được lưu trữ cục bộ trên thiết bị của bạn và sẽ bị xóa khi bạn gỡ cài đặt ứng dụng.</p>
+
+            <h2>📊 Cách Chúng Tôi Sử Dụng Thông Tin</h2>
+            <p>Vì chúng tôi không thu thập thông tin cá nhân, nên:</p>
+            <ul>
+                <li>✅ Không có dữ liệu của bạn được chia sẻ với bên thứ ba</li>
+                <li>✅ Không có dữ liệu của bạn được sử dụng cho mục đích quảng cáo</li>
+                <li>✅ Không có dữ liệu của bạn được phân tích hoặc bán cho bên khác</li>
+                <li>✅ Không có dữ liệu của bạn được lưu trữ trên máy chủ của chúng tôi</li>
+            </ul>
+
+            <h2>🔐 Bảo Mật Dữ Liệu</h2>
+            <p>Mặc dù chúng tôi không thu thập dữ liệu cá nhân, chúng tôi vẫn thực hiện các biện pháp bảo mật để đảm bảo ứng dụng hoạt động an toàn:</p>
+            <ul>
+                <li>Dữ liệu cục bộ được lưu trữ an toàn trên thiết bị của bạn</li>
+                <li>Ứng dụng không yêu cầu kết nối Internet để hoạt động</li>
+                <li>Không có kết nối đến máy chủ bên ngoài</li>
+                <li>Mã nguồn được kiểm tra bảo mật thường xuyên</li>
+            </ul>
+
+            <h2>👶 Quyền Riêng Tư Của Trẻ Em</h2>
+            <p>Tư Duy Số phù hợp với mọi lứa tuổi, kể cả trẻ em. Vì ứng dụng không thu thập bất kỳ thông tin cá nhân nào, nên nó an toàn cho trẻ em sử dụng mà không cần sự giám sát của phụ huynh.</p>
+            <p>Chúng tôi tuân thủ đầy đủ các quy định về bảo vệ quyền riêng tư của trẻ em, bao gồm COPPA (Children's Online Privacy Protection Act).</p>
+
+            <h2>🔗 Liên Kết Bên Thứ Ba</h2>
+            <p>Ứng dụng Tư Duy Số không chứa bất kỳ liên kết nào đến trang web hoặc dịch vụ bên thứ ba. Bạn có thể yên tâm rằng việc sử dụng ứng dụng của chúng tôi không dẫn đến việc chia sẻ dữ liệu với bất kỳ bên nào khác.</p>
+
+            <h2>📢 Quảng Cáo</h2>
+            <p>Tư Duy Số <strong>KHÔNG</strong> hiển thị bất kỳ quảng cáo nào. Ứng dụng hoàn toàn miễn phí và không có mua hàng trong ứng dụng (In-App Purchase).</p>
+
+            <h2>🔄 Quyền Của Bạn</h2>
+            <p>Vì chúng tôi không thu thập dữ liệu cá nhân của bạn, nên:</p>
+            <ul>
+                <li><strong>Quyền truy cập:</strong> Tất cả dữ liệu được lưu cục bộ trên thiết bị của bạn</li>
+                <li><strong>Quyền xóa:</strong> Bạn có thể xóa tất cả dữ liệu bằng cách xóa dữ liệu ứng dụng hoặc gỡ cài đặt</li>
+                <li><strong>Quyền từ chối:</strong> Không có dữ liệu nào được thu thập nên không cần từ chối</li>
+                <li><strong>Quyền chuyển dữ liệu:</strong> Bạn có toàn quyền kiểm soát dữ liệu cục bộ trên thiết bị của mình</li>
+            </ul>
+
+            <h2>📝 Quyền Truy Cập Ứng Dụng</h2>
+            <p>Tư Duy Số yêu cầu các quyền tối thiểu sau:</p>
+            <ul>
+                <li><strong>Lưu trữ cục bộ:</strong> Để lưu điểm số và cài đặt trò chơi</li>
+                <li><strong>Không yêu cầu quyền khác:</strong> Không cần quyền truy cập camera, vị trí, danh bạ, v.v.</li>
+            </ul>
+
+            <h2>🔔 Thay Đổi Chính Sách</h2>
+            <p>Chúng tôi có thể cập nhật Chính sách bảo mật này theo thời gian. Mọi thay đổi sẽ được thông báo trong ứng dụng và có hiệu lực ngay khi được đăng tải.</p>
+            <p>Chúng tôi khuyến khích bạn xem lại trang này định kỳ để cập nhật thông tin mới nhất về cách chúng tôi bảo vệ quyền riêng tư của bạn.</p>
+
+            <h2>🌍 Tuân Thủ Quy Định</h2>
+            <p>Chính sách bảo mật này tuân thủ các quy định sau:</p>
+            <ul>
+                <li><strong>GDPR</strong> (General Data Protection Regulation - EU)</li>
+                <li><strong>CCPA</strong> (California Consumer Privacy Act - Hoa Kỳ)</li>
+                <li><strong>COPPA</strong> (Children's Online Privacy Protection Act - Hoa Kỳ)</li>
+                <li><strong>Luật An ninh mạng Việt Nam</strong> (Luật số 24/2018/QH14)</li>
+                <li><strong>Google Play Developer Policy</strong></li>
+                <li><strong>Apple App Store Guidelines</strong></li>
+            </ul>
+
+            <div class="contact">
+                <h2>📧 Liên Hệ</h2>
+                <p>Nếu bạn có bất kỳ câu hỏi nào về Chính sách bảo mật này, vui lòng liên hệ với chúng tôi:</p>
+                <p><strong>Email:</strong> <a href="mailto:contact@donam.vn">contact@donam.vn</a></p>
+                <p><strong>Website:</strong> <a href="https://tuduyso.donam.vn">https://tuduyso.donam.vn</a></p>
+            </div>
+        </div>
+
+        <!-- English Version -->
+        <div class="lang-en">
+            <div class="highlight">
+                <p><strong>NUMBER THINKING</strong> is committed to protecting your privacy. This policy explains how we collect, use, and protect your information when using our application.</p>
+            </div>
+
+            <h2>📱 Introduction</h2>
+            <p>Number Thinking is a completely free brain training game application, developed to help users improve memory and calculation skills. We respect your privacy and are committed to protecting your personal information.</p>
+
+            <h2>🔍 Information We Collect</h2>
+            
+            <h3>Information We Do NOT Collect</h3>
+            <p>Number Thinking <strong>DOES NOT</strong> collect any of your personal information, including:</p>
+            <ul>
+                <li>Name, email address, phone number</li>
+                <li>Account information or passwords</li>
+                <li>Geographic location</li>
+                <li>Phone contacts</li>
+                <li>Photos or videos</li>
+                <li>Other personally identifiable data</li>
+            </ul>
+
+            <h3>Local Data</h3>
+            <p>The app only stores the following data <strong>on your device</strong> (not sent to any server):</p>
+            <ul>
+                <li><strong>High scores:</strong> To track your progress</li>
+                <li><strong>Game settings:</strong> Difficulty level, sound options</li>
+                <li><strong>Game statistics:</strong> Number of plays, play time</li>
+            </ul>
+            <p>All this data is stored locally on your device and will be deleted when you uninstall the app.</p>
+
+            <h2>📊 How We Use Information</h2>
+            <p>Since we do not collect personal information:</p>
+            <ul>
+                <li>✅ No data is shared with third parties</li>
+                <li>✅ No data is used for advertising purposes</li>
+                <li>✅ No data is analyzed or sold to others</li>
+                <li>✅ No data is stored on our servers</li>
+            </ul>
+
+            <h2>🔐 Data Security</h2>
+            <p>Although we do not collect personal data, we still implement security measures to ensure the app operates safely:</p>
+            <ul>
+                <li>Local data is stored securely on your device</li>
+                <li>The app does not require an Internet connection to function</li>
+                <li>No connections to external servers</li>
+                <li>Source code is regularly security audited</li>
+            </ul>
+
+            <h2>👶 Children's Privacy</h2>
+            <p>Number Thinking is suitable for all ages, including children. Since the app does not collect any personal information, it is safe for children to use without parental supervision.</p>
+            <p>We fully comply with regulations regarding children's privacy protection, including COPPA (Children's Online Privacy Protection Act).</p>
+
+            <h2>🔗 Third-Party Links</h2>
+            <p>Number Thinking app does not contain any links to third-party websites or services. You can rest assured that using our app does not lead to sharing data with any other parties.</p>
+
+            <h2>📢 Advertising</h2>
+            <p>Number Thinking <strong>DOES NOT</strong> display any advertisements. The app is completely free and has no In-App Purchases.</p>
+
+            <h2>🔄 Your Rights</h2>
+            <p>Since we do not collect your personal data:</p>
+            <ul>
+                <li><strong>Right to access:</strong> All data is stored locally on your device</li>
+                <li><strong>Right to delete:</strong> You can delete all data by clearing app data or uninstalling</li>
+                <li><strong>Right to opt-out:</strong> No data is collected, so no need to opt-out</li>
+                <li><strong>Right to data portability:</strong> You have full control over local data on your device</li>
+            </ul>
+
+            <h2>📝 App Permissions</h2>
+            <p>Number Thinking requires the following minimal permissions:</p>
+            <ul>
+                <li><strong>Local storage:</strong> To save scores and game settings</li>
+                <li><strong>No other permissions required:</strong> No need for camera, location, contacts access, etc.</li>
+            </ul>
+
+            <h2>🔔 Policy Changes</h2>
+            <p>We may update this Privacy Policy from time to time. Any changes will be notified within the app and will be effective immediately upon posting.</p>
+            <p>We encourage you to review this page periodically for the latest information on how we protect your privacy.</p>
+
+            <h2>🌍 Regulatory Compliance</h2>
+            <p>This privacy policy complies with the following regulations:</p>
+            <ul>
+                <li><strong>GDPR</strong> (General Data Protection Regulation - EU)</li>
+                <li><strong>CCPA</strong> (California Consumer Privacy Act - USA)</li>
+                <li><strong>COPPA</strong> (Children's Online Privacy Protection Act - USA)</li>
+                <li><strong>Vietnam Cybersecurity Law</strong> (Law No. 24/2018/QH14)</li>
+                <li><strong>Google Play Developer Policy</strong></li>
+                <li><strong>Apple App Store Guidelines</strong></li>
+            </ul>
+
+            <div class="contact">
+                <h2>📧 Contact Us</h2>
+                <p>If you have any questions about this Privacy Policy, please contact us:</p>
+                <p><strong>Email:</strong> <a href="mailto:contact@donam.vn">contact@donam.vn</a></p>
+                <p><strong>Website:</strong> <a href="https://tuduyso.donam.vn">https://tuduyso.donam.vn</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            // Hide all language sections
+            document.querySelectorAll('.lang-vi, .lang-en').forEach(el => {
+                el.classList.remove('active');
+            });
+            
+            // Remove active class from all buttons
+            document.querySelectorAll('.language-switch button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Show selected language
+            if (lang === 'vi') {
+                document.querySelector('.lang-vi').classList.add('active');
+                document.getElementById('btn-vi').classList.add('active');
+            } else {
+                document.querySelector('.lang-en').classList.add('active');
+                document.getElementById('btn-en').classList.add('active');
+            }
+        }
+        
+        // Set default language to Vietnamese
+        document.addEventListener('DOMContentLoaded', function() {
+            switchLanguage('vi');
+        });
+    </script>
+</body>
+</html>
